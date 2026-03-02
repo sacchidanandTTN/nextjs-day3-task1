@@ -2,7 +2,7 @@ import PostCard from "@/components/post/PostCard";
 import { getPosts, getPostsID } from "@/lib/api";
 import { Post } from "@/types/post";
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
-import { useParams } from "next/navigation";
+
 
 
 interface Props{
